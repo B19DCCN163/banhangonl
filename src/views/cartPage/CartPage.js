@@ -6,7 +6,6 @@ import { useAuthContext } from '../../store/contexts/AuthContext'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 
-
 function CartPage() {
     const { isAuthenticated } = useAuthContext()
     const navigate = useNavigate()
