@@ -1,5 +1,4 @@
 import './CartPage.scss'
-
 import CartList from "./CartList/CartList"
 import CartBill from "./CartBill/CartBill"
 import { toast } from 'react-toastify'
