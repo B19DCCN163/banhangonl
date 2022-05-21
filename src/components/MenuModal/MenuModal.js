@@ -1,7 +1,6 @@
 import { findParentElement } from '../../utils'
 import { Link } from 'react-router-dom'
 import Modal from '../layout/Modal/Modal'
-
 import './MenuModal.scss'
 import { useProductContext } from '../../store/contexts/ProductContext'
 
