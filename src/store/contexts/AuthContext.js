@@ -24,7 +24,7 @@ function AuthContextProvider({ children }) {
     }, [])
 
 
-    //function
+
     async function loadUser() {
         setIsSpinnerLoading(true)
         let accessToken = localStorage.getItem(process.env.REACT_APP_ACCESS_TOKEN)
